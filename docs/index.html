@@ -1,18 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">    
-    <title>MAIN PAGE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Retirement</title>
+<meta name="description" content="Privacy policy for the Retirement calculator app. Nothing you enter leaves your device.">
+<style>
+  /*
+    System fonts only, and no external requests of any kind — it would be a poor look
+    for a policy promising no tracking to phone a font CDN that logs your IP.
+  */
+  :root {
+    --ground: #f2eefa;
+    --ground-end: #e4dcf3;
+    --card: #ffffff;
+    --border: #e3dbf2;
+    --ink: #2b2740;
+    --ink-soft: #7c7499;
+    --ink-faint: #a79fc0;
+    --accent: #5d59c3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #1b1630;
+      --ground-end: #120e20;
+      --card: #241e38;
+      --border: #392f52;
+      --ink: #f3f0fa;
+      --ink-soft: #a79fc4;
+      --ink-faint: #7a7196;
+      --accent: #8f7fdb;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 40px 20px 72px;
+    background: linear-gradient(165deg, var(--ground) 0%, var(--ground-end) 100%);
+    background-attachment: fixed;
+    color: var(--ink);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  header { margin-bottom: 28px; }
+
+  h1 {
+    margin: 0 0 6px;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+  }
+
+  .updated {
+    margin: 0;
+    color: var(--ink-faint);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    font-weight: 600;
+  }
+
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 22px 24px;
+    margin-bottom: 14px;
+  }
+
+  h2 {
+    margin: 0 0 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    font-weight: 600;
+    color: var(--ink-faint);
+  }
+
+  p {
+    margin: 0;
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+
+  section:first-of-type p {
+    color: var(--ink);
+    font-size: 17px;
+  }
+
+  a { color: var(--accent); }
+  a:hover { color: var(--ink); }
+
+  footer {
+    max-width: 680px;
+    margin: 24px auto 0;
+    color: var(--ink-faint);
+    font-size: 13px;
+  }
+
+  @media (max-width: 480px) {
+    body { padding: 28px 14px 48px; }
+    h1 { font-size: 25px; }
+    section { padding: 18px; border-radius: 16px; }
+  }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to my Personal Website!</h1>
-        <h2>Check out my youtube channel for web game tutorials!</h2>
-        <h2>Don't forget to like and subscribe to my youtube channel!</h2>
-        <a href="./about.html"><h2>Click here to learn about me!</h2></a>
-    </div>
+<main>
+  <header>
+    <h1>Retirement — Privacy Policy</h1>
+    <p class="updated">Last updated 1 September 2026</p>
+  </header>
+
+  <section>
+    <h2>The short version</h2>
+    <p>
+      Everything you type stays on this device. There is no account, no sign-in, and no server to send it to.
+      We cannot see your numbers because they never leave your phone or browser.
+    </p>
+  </section>
+
+  <section>
+    <h2>What is stored</h2>
+    <p>
+      Your age, retirement age, balance, contribution, salary, tax rate, spending plan, growth and inflation
+      assumptions, and your theme choice. They are saved in this app&rsquo;s own local storage so you do not have
+      to type them again.
+    </p>
+  </section>
+
+  <section>
+    <h2>No data collection</h2>
+    <p>
+      No name, email address or phone number. No bank or brokerage connection. No analytics, advertising
+      identifiers or crash reporting. Nothing is shared with anyone, because nothing is transmitted.
+    </p>
+  </section>
+
+  <section>
+    <h2>Deleting it</h2>
+    <p>
+      Uninstalling the app removes everything. On the web, clearing this site&rsquo;s storage in your browser does
+      the same. There is no copy anywhere else to request the deletion of.
+    </p>
+  </section>
+
+  <section>
+    <h2>Education use only</h2>
+    <p>
+      It is an educational calculator. It does not provide financial, investment, tax or legal advice, it is
+      not a broker or adviser, and it has no relationship with any financial institution. Projections are
+      arithmetic on the assumptions you enter, not predictions, and future returns are unknown. Talk to a
+      qualified professional before acting on anything you see here.
+    </p>
+  </section>
+
+  <section>
+    <h2>All ages</h2>
+    <p>
+      This app is not directed at children under 13 and we do not knowingly collect information from them.
+      Since nothing is transmitted to us, we hold no information about any user of any age.
+    </p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>
+      If the app ever starts sending data anywhere &mdash; an account, a linked bank, analytics or a purchase
+      &mdash; this page will be updated before that feature ships, and the date at the top will change.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy can go to
+      <a href="mailto:support@example.com">support@example.com</a>.
+    </p>
+  </section>
+</main>
 </body>
 </html>
